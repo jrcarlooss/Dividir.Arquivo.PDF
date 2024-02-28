@@ -1,10 +1,10 @@
 import PyPDF2
 
 # Caminho do arquivo PDF de entrada
-input_pdf_path = r'C:\Users\PC-CM-BONSUCESSO\Pictures\ControlCenter4\Scan\pdf.pdf'
+input_pdf_path = r'caminho onde esta salvo o pdf\pdf.pdf'
 
 # Caminho do diretório de saída
-output_dir = r'C:\Users\PC-CM-BONSUCESSO\Pictures\ControlCenter4\Scan\onde-esta-salvo'
+output_dir = r'C:\Users\Scan\onde-esta-salvo'
 
 # Abra o arquivo PDF
 with open(input_pdf_path, 'rb') as file:
